@@ -20,5 +20,8 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha --timeout 10000"
+  },
+  "engines": {
+    "node": "7.0.0"
   }
 }
