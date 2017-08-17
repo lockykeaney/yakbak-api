@@ -14,8 +14,8 @@ app.use(bodyParser.json());
 
 // database configuration ===============================================================
 const mongoose = require('mongoose');
-// mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/yak');
-mongoose.connect('mongodb://lockykeaney:17Gardiner@ds013848.mlab.com:13848/mysterious-citadel');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/yak');
+// mongoose.connect('mongodb://lockykeaney:17Gardiner@ds013848.mlab.com:13848/mysterious-citadel');
 
 // const env = process.env.NODE_ENV;
 
